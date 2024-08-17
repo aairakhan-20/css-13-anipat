@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.uppersec {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+header {
+    padding-top: 1%;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(41, 40, 40);
+}
+
+.logo {
+    padding-left: 1%;
+    width: 10%;
+    height: 4%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    padding-bottom: 1%;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 2%;
+}
+
+.upperlist {
+    color:  rgb(197, 190, 190);
+    font-size: 24px;
+    list-style-type: none;
+    padding: 8%;
+    margin-right: 30%;
+    cursor: pointer;
+}
+
+.upperlist:hover {
+    color: white;
+}
+
+ .whitebar {
+    width: 100%;
+    height: 35%;
+    background-color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    box-shadow: 0 0 30px rgb(216, 213, 213);
+}
+
+.anipat {
+    width: 17%;
+    height: 7%;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.upperlist2{
+    color: black;
+    font-size: 23px;
+    font-family: harrington;
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 11%;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+.upperlist2:hover {
+    color: orangered;
+}
+
+.orangebody {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(red, orangered);
+    margin-top: 11%;
+    padding: 5%;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-family: harrington;
+    font-size: 65px;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+h1 > span {
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+.orangebodytext {
+    color: white;
+    font-size: 18px;
+    font-family: harrington;
+}    
+
+.btn1 {
+    width: 80%;
+    height: 40%;
+    color: orangered;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 5%;
+    font-family: century gothic;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: white;
+    background: none;
+}
+
+.shorttext {
+    margin-top: 6%;
+    text-align: center;
+    font-family: harrington;
+}
+
+h2 {
+    font-size: 55px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    font-family: harrington;
+}
+
+ p {
+    font-size: 21px;
+    padding-top: 2%;
+    color: grey;
+    font-family: harrington;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.sec {
+    width: 20%;
+    height: 45%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding: 3%;
+    margin-left: 2%;
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+.sec > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 15%;
+}
+
+.sec:hover {
+    border: none;
+    box-shadow: 0 0 30px rgb(216, 213, 213);
+}
+
+.cat {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.cattext {
+    padding-top: 5%;
+    width: 50%;
+    height: 60%;
+}
+
+.btn2 {
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 35%;
+    height: 20%;
+    border-radius: 25px;
+    padding: 2%;
+    font-family: century gothic;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: orangered;
+    background: none;
+    border: 2px solid orangered;
+}
+
+.lowest {
+    width: 100%;
+    height: 60%;
+    margin-top: 5%;
+    background-color: rgb(204, 201, 201);
+    padding: 3%;
+    display: flex;
+}
+
+.lower1, .lower2 {
+    margin-left: 10%;
+}
+
+.lowerlist {
+    padding-left: 3%;
+    list-style-type: none;
+    font-family: harrington;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    font-family: harrington;
+}
+
